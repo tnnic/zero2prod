@@ -1,0 +1,12 @@
+# Принудительно использовать LF для всех текстовых файлов
+* text=auto eol=lf
+
+# Явно указать LF для Rust-файлов
+*.rs text eol=lf
+Cargo.toml text eol=lf
+Cargo.lock text eol=lf
+
+# Объявить бинарные файлы, чтобы Git их не трогал
+*.png binary
+*.jpg binary
+*.ico binary
